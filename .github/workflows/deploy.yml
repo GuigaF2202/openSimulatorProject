@@ -1,0 +1,11 @@
+steps:
+  - name: Configurar Node.js
+    uses: actions/setup-node@v3
+    with:
+      node-version: '18'
+
+  - name: Instalar Dependências
+    run: npm install --workspaces
+
+  - name: Rodar Testes
+    run: npm test

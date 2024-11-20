@@ -1,0 +1,23 @@
+{
+  "name": "opensimulator-backend",
+  "version": "1.0.0",
+  "description": "Backend para o OpenSimulator Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.0",
+    "opensimulator-backend": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "Luiz Guilherme Filho",
+  "license": "MIT"
+}
